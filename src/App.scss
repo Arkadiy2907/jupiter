@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-style: normal;
+}
+
+
+.wrapper {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+
+	.wrap {
+		flex-direction: column;
+		display: flex;
+		justify-content: center;
+		align-items: center;		
+	}
+}
