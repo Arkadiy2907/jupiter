@@ -8,7 +8,7 @@ header {
 	flex-direction: column;
 	background-color: $bgHeader;
 	color: $white;
-	width: 99.9vw;
+	width: 99vw;
 	align-items: center;
 
 	.head {
@@ -71,17 +71,11 @@ main {
 	flex-direction: column;
 	background-color: $bgMain;
 	align-items: center;
-	width: 99.9vw;
+	width: 99vw;
 
 	.nav__opt {
-		display: none;		
-		width: 100%;
-		margin: 15px;
-		border: 1px solid #f3d1bf;
-		border-radius: 5px;
-		color: #80695c;
-		padding: 5px 14px;
-		margin-left: 0px;
+		// display: none;
+		display: block;
 	}
 
 	.nav__btn {
@@ -206,6 +200,13 @@ main {
 	main {
 		.nav__opt {
 			display: block;
+			width: 100%;
+			margin: 15px;
+			border: 1px solid #f3d1bf;
+			border-radius: 5px;
+			color: #80695c;
+			padding: 5px 14px;
+			margin-left: 0px;
 		}
 
 		.nav__btn {
